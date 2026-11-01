@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/etTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Telefon Numarası Girin"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnKamera"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="FOTOĞRAF ÇEK VE SMS GÖNDER"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/ivFotograf"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="#DDDDDD"
+        android:contentDescription="cekilen_foto" />
+
+</LinearLayout>
